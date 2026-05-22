@@ -1,0 +1,24 @@
+{
+    "name": "UARTerm",
+    "description": "UART serial terminal with TCP server, auto-baud, SD logging, and HEX mode for M5Cardputer ADV",
+    "keywords": "terminal, uart, tcp, serial, m5cardputer, adv",
+    "author": "Zolibot",
+    "repository": "https://github.com/Zolibot/UARTerm",
+    "version": "1.0",
+    "firmware_category": [
+        {
+            "Cardputer ADV (LAUNCHER)": {
+                "path": "firmware_launcher",
+                "device": ["M5Cardputer ADV"],
+                "default_baud": 1500000
+            }
+        },
+        {
+            "Cardputer ADV (Full Flash)": {
+                "path": "firmware_full",
+                "device": ["M5Cardputer ADV"],
+                "default_baud": 1500000
+            }
+        }
+    ]
+}
